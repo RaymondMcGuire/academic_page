@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
 description: <a href="https://www.tsukuba.ac.jp/en/">University of Tsukuba</a>, Tsukuba, Ibaraki, Japan
