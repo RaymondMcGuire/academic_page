@@ -1,11 +1,3 @@
-<!--
- * @Author: Xu.WANG
- * @Date: 2021-08-16 11:34:53
- * @LastEditTime: 2021-08-16 11:35:13
- * @LastEditors: Xu.WANG
- * @Description: 
- * @FilePath: \raymondmcguire.github.io\_pages\about.md
--->
 ---
 layout: about
 title: about
