@@ -10,7 +10,10 @@
     <abbr class="badge">{{entry.abbr}}</abbr>
     {% endif %}
     {% endif %}
-    <img src="{{ entry.teaser }}" alt="project thumbnail">
+
+    {% if entry.abbr %}
+    <img src="{{ entry.teaser }}" alt="image thumbnail" class="img-thumbnail">
+    {% endif %}
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8">
