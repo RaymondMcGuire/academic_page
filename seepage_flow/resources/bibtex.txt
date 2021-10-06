@@ -1,0 +1,31 @@
+@article{pacmcgitwang2021,
+author = {Wang, Xu and Fujisawa, Makoto and Mikawa, Masahiko},
+title = {Visual Simulation of Soil-Structure Destruction with Seepage Flows},
+year = {2021},
+issue_date = {September 2021},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {4},
+number = {3},
+url = {https://doi.org/10.1145/3480141},
+doi = {10.1145/3480141},
+abstract = {This paper introduces a method for simulating soil-structure coupling with water,
+which involves a series of visual effects, including wet granular materials, seepage
+flows, capillary action between grains, and dam breaking simulation. We develop a
+seepage flow based SPH-DEM framework to handle soil and water particles interactions
+through a momentum exchange term. In this framework, water is seen as a seepage flow
+through porous media by Darcy's law; the seepage rate and the soil permeability are
+manipulated according to drag coefficient and soil porosity. A water saturation-based
+capillary model is used to capture various soil behaviors such as sandy soil and clay
+soil. Furthermore, the capillary model can dynamically adjust liquid bridge forces
+induced by surface tension between soil particles. The adhesion model describes the
+attraction ability between soil surfaces and water particles to achieve various visual
+effects for soil and water. Lastly, this framework can capture the complicated dam-breaking
+scenarios caused by overtopping flow or internal seepage erosion that are challenging
+to simulate.},
+journal = {Proc. ACM Comput. Graph. Interact. Tech.},
+month = sep,
+articleno = {41},
+numpages = {18},
+keywords = {Seepage Flow, Adhesion, Dam Breach, Capillary Action, Smoothed Particle Hydrodynamics, Discrete Element Method}
+}
