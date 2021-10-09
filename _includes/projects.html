@@ -1,10 +1,10 @@
-<div class="grid-item d-flex align-items-stretch">
+<div class="grid-item">
   {% if project.redirect %}
   <a href="{{ project.redirect }}">
     {% else %}
     <a href="{{ project.url | relative_url }}">
       {% endif %}
-      <div class="card hoverable">
+      <div class="card hoverable d-flex align-items-stretch">
         {% if project.img %}
         <img src="{{ project.img | relative_url }}" alt="project thumbnail" style="height: 15vw;">
         {% endif %}
