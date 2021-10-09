@@ -1,7 +1,7 @@
 ---
 layout: page
-title: SPH(CUDA)
-description: SPH implementation
+title: SPH
+description: SPH(CUDA) + Screen Space Fluid
 img: /assets/img/sph_cuda/sph_atf.gif
 importance: 1
 category: papers implementation

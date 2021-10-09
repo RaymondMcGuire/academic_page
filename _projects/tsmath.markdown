@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Poisson Image Editing
-description: TSMathLib
+description: Developed by TSMathLib
 img: /assets/img/tsmath/poisson_image_editing_demo.gif
 importance: 1
 category: papers implementation

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: GPU Based Image Processing Tools
-description: NPR algorithms implementation
+title: NPR Filters
+description: GPU Based Image Processing Tools
 img: /assets/img/npr_online/FXDoG_AKF.png
 importance: 1
 category: papers implementation
