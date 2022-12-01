@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NPR Filters
-description: GPU Based Image Processing Tools
+description: A tool for viewing image filters online. This project has implemented some NPR algorithms you can use it directly and don’t need additional packages.
 img: /assets/img/npr_online/FXDoG_AKF.png
 importance: 1
 category: papers implementation
