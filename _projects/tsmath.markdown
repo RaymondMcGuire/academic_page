@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Poisson Image Editing
-description: Developed by TSMathLib
+description: Poisson image editing web application which was developed by TSMathLib
 img: /assets/img/tsmath/poisson_image_editing_demo.gif
-importance: 1
+importance: 2
 category: papers implementation
 github: https://raymondmcguire.github.io/TSMathLib/
 ---
