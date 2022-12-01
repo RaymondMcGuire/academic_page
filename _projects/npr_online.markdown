@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NPR Filters
-description: A tool for viewing image filters online. This project has implemented some NPR algorithms you can use it directly and don’t need additional packages.
+description: An image processing tool based on WebGL implemented some Non-photorealistic rendering (NPR) related algorithms. Supported basic image filters (Sobel, Laplacian, Gaussian, Difference of Gaussian (DoG), Bloom). Implemented Line integral convolution, Extended DoG (XDoG), Flow-based XDoG, Kuwahara filter, Generalized Kuwahara filter and Anisotropic Kuwahara filter
 img: /assets/img/npr_online/FXDoG_AKF.png
 importance: 1
 category: papers implementation
