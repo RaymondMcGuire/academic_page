@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Particle-Based Fluid Toolkit
+title: Particle-Based Fluid
 description: This project implemented several SPH-related papers using CUDA, including Weakly compressible SPH (SCA2007), Position based fluid (SIGGRAPH2013), Implicit incompressible SPH (TVCG2014), Divergence-free SPH (SCA2015), Volume fraction-based multiple-fluid (SIGGRAPH2014) and Helmholtz free energy based multiple-fluid (SIGGRAPH2015).
 img: /assets/img/sph_cuda/yang15_miscible.gif
 importance: 1
 category: papers implementation
-github: https://github.com/RaymondMcGuire/Particle-Based-Fluid-Toolkit
+github: https://github.com/RaymondMcGuire/Particle-Based-Fluid
 ---
-<a href="https://raymondmcguire.github.io/Particle-Based-Fluid-Toolkit/" target="_blank" title="Particle-Based Fluid Toolkit">Website</a>
+<a href="https://raymondmcguire.github.io/Particle-Based-Fluid/" target="_blank" title="Particle-Based Fluid">Website</a>
 
-<a href="https://github.com/RaymondMcGuire/Particle-Based-Fluid-Toolkit" target="_blank" title="Particle-Based Fluid Toolkit">GitHub</a>
+<a href="https://github.com/RaymondMcGuire/Particle-Based-Fluid" target="_blank" title="Particle-Based Fluid">GitHub</a>
 
 <div class="caption">
     Gallery
