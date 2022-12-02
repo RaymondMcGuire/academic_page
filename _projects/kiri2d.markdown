@@ -5,11 +5,11 @@ description: Kiri2D is a tool for developing 2D graphics applications, which has
 img: /assets/img/kiri2d/voronoi_treemap2.gif
 importance: 1
 category: papers implementation
-github: https://github.com/RaymondMcGuire/Kiri2D/tree/mini
+github: https://github.com/RaymondMcGuire/Kiri2D/tree
 ---
-<a href="https://raymondmcguire.github.io/Kiri2D/" target="_blank" title="Particle-Based Fluid Toolkit">Website</a>
+<a href="https://raymondmcguire.github.io/Kiri2D/" target="_blank" title="Kiri2D">Website</a>
 
-<a href="https://github.com/RaymondMcGuire/Kiri2D/tree/mini" target="_blank" title="Particle-Based Fluid Toolkit">GitHub</a>
+<a href="https://github.com/RaymondMcGuire/Kiri2D/tree" target="_blank" title="Kiri2D">GitHub</a>
 
 <div class="caption">
     Gallery
