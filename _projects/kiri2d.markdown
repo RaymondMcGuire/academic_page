@@ -2,7 +2,7 @@
 layout: page
 title: Kiri2D
 description: Kiri2D is a tool for developing 2D graphics applications, which has already implemented Convex hull, Delaunay diagram, Voronoi diagram, Power diagram, Lloyd iteration and Voronoi treemap for arbitrary geometry boundary based on QuickHull algorithm. Additionally, it also support Straight skeleton, Poisson disk sampling, ProtoSphere packing and Multi-sized particle sampling method. 
-img: /assets/img/kiri2d/voronoi_treemap2.gif
+img: /assets/img/kiri2d/dynamic_fracture.gif
 importance: 1
 category: papers implementation
 github: https://github.com/RaymondMcGuire/Kiri2D/
@@ -101,6 +101,22 @@ github: https://github.com/RaymondMcGuire/Kiri2D/
         title="Voronoi Treemap"/>
              <div class="caption">
             Voronoi Treemap Example 2
+     </div>
+    </div>
+
+     <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/kiri2d/rigidbody_drop.gif' | relative_url }}" alt="" 
+        title="Rigidbody Drop"/>
+             <div class="caption">
+           Rigidbody Drop Example 1
+     </div>
+    </div>
+
+     <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/kiri2d/dynamic_fracture.gif' | relative_url }}" alt="" 
+        title="Dynamic Fracture"/>
+             <div class="caption">
+           Dynamic Fracture Example 1
      </div>
     </div>
 </div>
