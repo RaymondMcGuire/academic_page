@@ -11,7 +11,7 @@
   Xu  Wang
 
 
-  | blog
+  | Particle-Based Fluid
 
 </title>
 <meta name="description" content="Personal academic page
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/sph_cuda/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -107,7 +107,7 @@
                     </li>
                     
                     <!-- Other pages -->
-                                
+                              
                     <li class="nav-item ">
                         <a class="nav-link" href="/projects/">
                 Projects
@@ -135,18 +135,100 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Particle-Based Fluid</h1>
+    <p class="post-description">This project implemented several SPH-related papers using CUDA, including Weakly compressible SPH (SCA2007), Position based fluid (SIGGRAPH2013), Implicit incompressible SPH (TVCG2014), Divergence-free SPH (SCA2015), Volume fraction-based multiple-fluid (SIGGRAPH2014) and Helmholtz free energy based multiple-fluid (SIGGRAPH2015).</p>
+  </header>
+
+  <article>
+    <p><a href="https://raymondmcguire.github.io/Particle-Based-Fluid/" target="_blank" title="Particle-Based Fluid">Website</a></p>
+
+<p><a href="https://github.com/RaymondMcGuire/Particle-Based-Fluid" target="_blank" title="Particle-Based Fluid">GitHub</a></p>
+
+<div class="caption">
+    Gallery
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/sph_cuda/sph_muller.gif" alt="" title="SPH" />
+        <div class="caption">
+            SPH
+        </div>
+    </div>
+
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/sph_cuda/sph_dambreak.gif" alt="" title="SPH With Artificial Viscosity" />
+        <div class="caption">
+            SPH With Artificial Viscosity
+        </div>
+    </div>
+
+        <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/sph_cuda/sph_surface_tension.gif" alt="" title="SPH With Surface Tension" />
+             <div class="caption">
+            SPH With Surface Tension
+     </div>
+    </div>
+
+     <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/sph_cuda/sph_surface_bunny.gif" alt="" title="Bunny-Shaped SPH" />
+             <div class="caption">
+            Bunny-Shaped SPH
+     </div>
+    </div>
+
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/sph_cuda/wcsph_surface.gif" alt="" title="WCSPH" />
+             <div class="caption">
+            Weakly Compressible SPH (SCA2007)
+     </div>
+    </div>
+
+      <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/sph_cuda/pbf_bunny.gif" alt="" title="PBF" />
+             <div class="caption">
+            Position Based Fluid (SIGGRAPH2013)
+     </div>
+    </div>
+
+        <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/sph_cuda/iisph_bunny.gif" alt="" title="IISPH" />
+             <div class="caption">
+            Implicit Incompressible SPH (TVCG2014)
+     </div>
+    </div>
 
 
-  <ul class="post-list">
-    
-  </ul>
+        <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/sph_cuda/dfsph_bunny.gif" alt="" title="DFSPH" />
+             <div class="caption">
+            Divergence-Free SPH (SCA2015)
+     </div>
+    </div>
 
-  
+       <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/sph_cuda/ren14_non_miscible.gif" alt="" title="Volume-Fraction Based Multiple-Fluid (Non-Miscible)" />
+             <div class="caption">
+            Volume-Fraction Based Multiple-Fluid (SIGGRAPH2014): Non-Miscible 
+     </div>
+    </div>
 
+      <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/sph_cuda/ren14_miscible.gif" alt="" title="Volume-Fraction Based Multiple-Fluid (Non-Miscible)" />
+             <div class="caption">
+            Volume-Fraction Based Multiple-Fluid (SIGGRAPH2014): Miscible 
+     </div>
+    </div>
+
+       <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/sph_cuda/yang15_miscible.gif" alt="" title="Helmholtz Free Energy Based Multiple-Fluid (Non-Miscible)" />
+             <div class="caption">
+            Helmholtz Free Energy Based Multiple-Fluid (SIGGRAPH2015): Miscible 
+     </div>
+    </div>
+</div>
+
+  </article>
 
 </div>
 

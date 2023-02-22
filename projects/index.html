@@ -11,7 +11,7 @@
   Xu  Wang
 
 
-  | blog
+  | Projects
 
 </title>
 <meta name="description" content="Personal academic page
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -108,9 +108,11 @@
                     
                     <!-- Other pages -->
                                 
-                    <li class="nav-item ">
+                    <li class="nav-item active">
                         <a class="nav-link" href="/projects/">
                 Projects
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
                     </li>
@@ -135,18 +137,136 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Projects</h1>
+    <p class="post-description"></p>
+  </header>
 
-
-  <ul class="post-list">
+  <article>
+    <div class="projects">
+  
+  <!-- Display categorized projects -->
     
-  </ul>
+      <h2 class="category">papers implementation</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+            <div class="grid-item">
+  
+    <a href="/projects/kiri2d/">
+      
+      <div class="card hoverable">
+        
+        <img src="/assets/img/kiri2d/dynamic_fracture.gif" alt="project thumbnail" style="height: 15vw;" />
+        
+        <div class="card-body">
+          <h2 class="card-title text">Kiri2D</h2>
+          <p class="card-text">Kiri2D is a tool for developing 2D graphics applications, which has already implemented Convex hull, Delaunay diagram, Voronoi diagram, Power diagram, Lloyd iteration and Voronoi treemap for arbitrary geometry boundary based on QuickHull algorithm. Additionally, it also support Straight skeleton, Poisson disk sampling, ProtoSphere packing and Multi-sized particle sampling method.</p>
+          <div class="row ml-1 mr-1 p-0">
+            
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/RaymondMcGuire/Kiri2D/"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+          
+            <div class="grid-item">
+  
+    <a href="/projects/npr_online/">
+      
+      <div class="card hoverable">
+        
+        <img src="/assets/img/npr_online/FXDoG_AKF.png" alt="project thumbnail" style="height: 15vw;" />
+        
+        <div class="card-body">
+          <h2 class="card-title text">NPR Filters</h2>
+          <p class="card-text">An image processing tool based on WebGL implemented some Non-photorealistic rendering (NPR) related algorithms. Supported basic image filters (Sobel, Laplacian, Gaussian, Difference of Gaussian (DoG), Bloom). Implemented Line integral convolution, Extended DoG (XDoG), Flow-based XDoG, Kuwahara filter, Generalized Kuwahara filter and Anisotropic Kuwahara filter</p>
+          <div class="row ml-1 mr-1 p-0">
+            
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://raymondmcguire.github.io/GPU-Based-Image-Processing-Tools/"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+          
+            <div class="grid-item">
+  
+    <a href="/projects/sph_cuda/">
+      
+      <div class="card hoverable">
+        
+        <img src="/assets/img/sph_cuda/yang15_miscible.gif" alt="project thumbnail" style="height: 15vw;" />
+        
+        <div class="card-body">
+          <h2 class="card-title text">Particle-Based Fluid</h2>
+          <p class="card-text">This project implemented several SPH-related papers using CUDA, including Weakly compressible SPH (SCA2007), Position based fluid (SIGGRAPH2013), Implicit incompressible SPH (TVCG2014), Divergence-free SPH (SCA2015), Volume fraction-based multiple-fluid (SIGGRAPH2014) and Helmholtz free energy based multiple-fluid (SIGGRAPH2015).</p>
+          <div class="row ml-1 mr-1 p-0">
+            
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/RaymondMcGuire/Particle-Based-Fluid"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+          
+            <div class="grid-item">
+  
+    <a href="/projects/tsmath/">
+      
+      <div class="card hoverable">
+        
+        <img src="/assets/img/tsmath/poisson_image_editing_demo.gif" alt="project thumbnail" style="height: 15vw;" />
+        
+        <div class="card-body">
+          <h2 class="card-title text">Poisson Image Editing</h2>
+          <p class="card-text">Poisson image editing web application which was developed by TSMathLib</p>
+          <div class="row ml-1 mr-1 p-0">
+            
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://raymondmcguire.github.io/TSMathLib/"><i class="fab fa-github gh-icon"></i></a>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+          
+        </div>
+      
+    
 
   
 
+</div>
+
+  </article>
 
 </div>
 
