@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpeg
   address: >
     <p>Japan, Ibaraki 305-8577</p>
-    <p>Kasuga 1-2 7D210</p>
+    <p>Kasuga 1-2 7D410</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
