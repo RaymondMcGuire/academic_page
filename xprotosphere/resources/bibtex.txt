@@ -1,0 +1,8 @@
+@article{wang2023xprotosphere,
+  title={XProtoSphere: an eXtended multi-sized sphere packing algorithm driven by particle size distribution},
+  author={Wang, Xu and Fujisawa, Makoto and Mikawa, Masahiko},
+  journal={The Visual Computer},
+  pages={1--14},
+  year={2023},
+  publisher={Springer}
+}
