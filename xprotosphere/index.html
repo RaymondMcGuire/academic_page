@@ -387,12 +387,18 @@
 						class="fab fa-3x fa-github text-primary mb-3"></i><span><b>Code</b></span></a></li>
 		</div>
 
-		<p>
-			<img class='teaser-img' src="./resources/cgi2023.gif" style='width:100%' alt="CGI2023 Shanghai">
+
+		<div id="gifContainer">
+			<p>
+				<img class='teaser-img' src="./resources/cgi2023.png" alt="Loading..." style="width:100%"
+					id="placeholderImage">
+				<img class='teaser-img' src="./resources/cgi2023.gif" alt="CGI2023" id="actualGIF"
+					style="display: none; width:100%">
+
+			</p>
+		</div>
 
 
-
-		</p>
 
 		<br>
 		<p><strong>Abstract: </strong>
@@ -464,6 +470,29 @@
 		<h2>Acknowledgements</h2>
 		This work was supported by JSPS KAKENHI Grant Number JP20K11839 and JST SPRING Grant Number JPMJSP2124.
 	</div>
+
+	<script>
+		function loadGIF() {
+			var gifImage = document.getElementById('actualGIF');
+			var placeholderImage = document.getElementById('placeholderImage');
+
+			gifImage.style.display = 'inline';
+			placeholderImage.style.display = 'none';
+		}
+
+		var gifContainer = document.getElementById('gifContainer');
+		var observer = new IntersectionObserver(function (entries, observer) {
+			entries.forEach(function (entry) {
+				if (entry.isIntersecting) {
+					loadGIF();
+					observer.unobserve(gifContainer);
+				}
+			});
+		}, { rootMargin: '100px 0px' });
+
+		// Start observing the GIF container
+		observer.observe(gifContainer);
+	</script>
 
 </body>
 
