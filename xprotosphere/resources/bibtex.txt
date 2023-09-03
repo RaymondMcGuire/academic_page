@@ -1,8 +1,18 @@
 @article{wang2023xprotosphere,
-  title={XProtoSphere: an eXtended multi-sized sphere packing algorithm driven by particle size distribution},
-  author={Wang, Xu and Fujisawa, Makoto and Mikawa, Masahiko},
-  journal={The Visual Computer},
-  pages={1--14},
-  year={2023},
-  publisher={Springer}
+author={Wang, Xu
+and Fujisawa, Makoto
+and Mikawa, Masahiko},
+title={XProtoSphere: an eXtended multi-sized sphere packing algorithm driven by particle size distribution},
+journal={The Visual Computer},
+year={2023},
+month={Aug},
+day={01},
+volume={39},
+number={8},
+pages={3333-3346},
+abstract={The sphere packing problem, which involves filling an arbitrarily shaped geometry with the maximum number of non-overlapping spheres, is a critical research challenge. ProtoSphere is a prototype-oriented algorithm designed for solving sphere packing problems. Due to its easily parallelizable design, it exhibits high versatility and has wide-ranging applications. However, the controllable regulation of particle size distribution (PSD) produced by ProtoSphere is often neglected, which limits its application on algorithm. This paper proposes a novel PSD-driven technique that extends the ProtoSphere algorithm to achieve multi-sized sphere packing with distribution-specific characteristics, as dictated by a pre-defined cumulative distribution function. The proposed approach improves the controllability and flexibility of the packing process, and enables users to generate packing configurations that meet their specific requirements. In addition, by combining the relaxation method with the ProtoSphere algorithm, we can further improve the packing density and ensure the average overlap below 1{\%}. Our method generates multi-sized particles that can be used to simulate the behavior of various granular materials, including sand-like and clay-like soils.},
+issn={1432-2315},
+doi={10.1007/s00371-023-02977-w},
+url={https://doi.org/10.1007/s00371-023-02977-w}
 }
+
